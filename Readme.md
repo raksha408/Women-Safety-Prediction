@@ -188,16 +188,20 @@ The Women Safety Prediction project follows a structured workflow from data coll
 ## GUI Screenshots  
 
 <p align="center">
-  <img src="GUI/Input details of women safety prediction.png" alt="Input Page" width="600"/>
+  <img src="GUI/Input details of women safety prediction.png" alt="Input Page" width="600"/><br/>
+  <b>Figure 1: Input details screen of Women Safety Prediction</b>
 </p>
 
 <p align="center">
-  <img src="GUI/Predictions(safe) details of women safety prediction.png" alt="Safe Prediction" width="600"/>
+  <img src="GUI/Predictions(safe) details of women safety prediction.png" alt="Safe Prediction" width="600"/><br/>
+  <b>Figure 2: Prediction result showing a Safe area</b>
 </p>
 
 <p align="center">
-  <img src="GUI/Prediction(unsafe) details of women safety prediction.png" alt="Unsafe Prediction" width="600"/>
+  <img src="GUI/Prediction(unsafe) details of women safety prediction.png" alt="Unsafe Prediction" width="600"/><br/>
+  <b>Figure 3: Prediction result showing an Unsafe area</b>
 </p>
+
 
 ## Future Work
 
