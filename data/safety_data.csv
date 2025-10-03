@@ -1,0 +1,105 @@
+Area,Zone,Time,People.Frequency,Is.Police_Station,Is.Bar,Tier,Residence.Level,Class
+ramapuram,Aanandam Nagar,Morning,Medium,Yes,No,Middle,Medium,Safe
+ramapuram,Aanandam Nagar,Afternoon,High,Yes,No,Middle,Medium,Safe
+ramapuram,Aanandam Nagar,Evening,Medium,Yes,No,Middle,Medium,Safe
+ramapuram,Aanandam Nagar,Night,Low,Yes,No,Middle,Medium,Safe
+ramapuram,Ambal Nagar,Morning,Medium,No,No,Outer,Medium,Safe
+ramapuram,Ambal Nagar,Afternoon,Low,No,No,Outer,Medium,Safe
+ramapuram,Ambal Nagar,Evening,Medium,No,No,Outer,Medium,Unsafe
+ramapuram,Ambal Nagar,Night,Low,No,No,Outer,Medium,Unsafe
+ramapuram,Amman Nagar,Morning,Medium,No,No,Outer,Medium,Safe
+ramapuram,Amman Nagar,Afternoon,Low,No,No,Outer,Medium,Safe
+ramapuram,Amman Nagar,Evening,Medium,No,No,Outer,Medium,Unsafe
+ramapuram,Amman Nagar,Night,Low,No,No,Outer,Medium,Unsafe
+adyar,Baktavatsalm Nagar,Morning,Medium,No,No,Outer,Low,Safe
+adyar,Baktavatsalm Nagar,Afternoon,Low,No,No,Outer,Low,Safe
+adyar,Baktavatsalm Nagar,Evening,Medium,No,No,Outer,Low,Unsafe
+adyar,Baktavatsalm Nagar,Night,Low,No,No,Outer,Low,Unsafe
+ramapuram,Chidambaram Nagar,Morning,Medium,No,No,Middle,High,Safe
+ramapuram,Chidambaram Nagar,Afternoon,Low,No,No,Middle,High,Safe
+ramapuram,Chidambaram Nagar,Evening,Medium,No,No,Middle,High,Safe
+ramapuram,Chidambaram Nagar,Night,Low,No,No,Middle,High,Unsafe
+ramapuram,Easwaran Nagar,Morning,Medium,Yes,No,Middle,Medium,Safe
+ramapuram,Easwaran Nagar,Afternoon,Medium,Yes,No,Middle,Medium,Safe
+ramapuram,Easwaran Nagar,Evening,Medium,Yes,No,Middle,Medium,Safe
+ramapuram,Easwaran Nagar,Night,Low,Yes,No,Middle,Medium,Safe
+ramapuram,Gokulam Colony,Morning,Medium,No,Yes,Outer,High,Safe
+ramapuram,Gokulam Colony,Afternoon,High,No,Yes,Outer,High,Safe
+ramapuram,Gokulam Colony,Evening,Medium,No,Yes,Outer,High,Unsafe
+ramapuram,Gokulam Colony,Night,High,No,Yes,Outer,High,Unsafe
+west mambalam,Kasi Viswanathar Colony,Morning,Medium,No,No,Middle,Medium,Safe
+west mambalam,Kasi Viswanathar Colony,Afternoon,Medium,No,No,Middle,Medium,Safe
+west mambalam,Kasi Viswanathar Colony,Evening,Medium,No,No,Middle,Medium,Safe
+west mambalam,Kasi Viswanathar Colony,Night,Low,No,No,Middle,Medium,Unsafe
+ramapuram,Moogambigai Nagar,Morning,Low,No,No,Outer,Low,Unsafe
+ramapuram,Moogambigai Nagar,Afternoon,Low,No,No,Outer,Low,Safe
+ramapuram,Moogambigai Nagar,Evening,Low,No,No,Outer,Low,Unsafe
+ramapuram,Moogambigai Nagar,Night,Low,No,No,Outer,Low,Unsafe
+west mambalam,Moovendar Colony,Morning,Medium,Yes,No,Outer,Medium,Safe
+west mambalam,Moovendar Colony,Afternoon,Low,Yes,No,Outer,Medium,Safe
+west mambalam,Moovendar Colony,Evening,Medium,Yes,No,Outer,Medium,Safe
+west mambalam,Moovendar Colony,Night,Low,Yes,No,Outer,Medium,Unsafe
+ramapuram,Mullai Nagar,Morning,High,Yes,No,Inner,High,Safe
+ramapuram,Mullai Nagar,Afternoon,Medium,Yes,No,Inner,High,Safe
+ramapuram,Mullai Nagar,Evening,High,Yes,No,Inner,High,Safe
+ramapuram,Mullai Nagar,Night,High,Yes,No,Inner,High,Safe
+west mambalam,Pannerselvam Nagar,Morning,Medium,No,Yes,Outer,Low,Unsafe
+west mambalam,Pannerselvam Nagar,Afternoon,Low,No,Yes,Outer,Low,Safe
+west mambalam,Pannerselvam Nagar,Evening,Low,No,Yes,Outer,Low,Unsafe
+west mambalam,Pannerselvam Nagar,Night,Low,No,Yes,Outer,Low,Unsafe
+west mambalam,Postal Colony,Morning,High,Yes,Yes,Middle,High,Safe
+west mambalam,Postal Colony,Afternoon,High,Yes,Yes,Middle,High,Safe
+west mambalam,Postal Colony,Evening,High,Yes,Yes,Middle,High,Safe
+west mambalam,Postal Colony,Night,Low,Yes,Yes,Middle,High,Safe
+west mambalam,RamaKrishnapuram,Morning,High,Yes,Yes,Inner,High,Safe
+west mambalam,RamaKrishnapuram,Afternoon,High,Yes,Yes,Inner,High,Safe
+west mambalam,RamaKrishnapuram,Evening,High,Yes,Yes,Inner,High,Safe
+west mambalam,RamaKrishnapuram,Night,Medium,Yes,Yes,Inner,High,Safe
+ramapuram,Royala Nagar,Morning,Medium,No,No,Inner,High,Safe
+ramapuram,Royala Nagar,Afternoon,Medium,No,No,Inner,High,Safe
+ramapuram,Royala Nagar,Evening,Medium,No,No,Inner,High,Safe
+ramapuram,Royala Nagar,Night,Low,No,No,Inner,High,Unsafe
+ramapuram,Sakthi Nagar,Morning,Low,Yes,Yes,Outer,Medium,Safe
+ramapuram,Sakthi Nagar,Afternoon,High,Yes,Yes,Outer,Medium,Safe
+ramapuram,Sakthi Nagar,Evening,High,Yes,Yes,Outer,Medium,Safe
+ramapuram,Sakthi Nagar,Night,Medium,Yes,Yes,Outer,Medium,Unsafe
+adyar,Shastri Nagar,Morning,Medium,Yes,Yes,Inner,High,Safe
+adyar,Shastri Nagar,Afternoon,Medium,Yes,Yes,Inner,High,Safe
+adyar,Shastri Nagar,Evening,High,Yes,Yes,Inner,High,Safe
+adyar,Shastri Nagar,Night,Medium,Yes,Yes,Inner,High,Safe
+adyar,South Kesavaperumalpuram,Morning,Low,No,No,Outer,Low,Unsafe
+adyar,South Kesavaperumalpuram,Afternoon,Low,No,No,Outer,Low,Safe
+adyar,South Kesavaperumalpuram,Evening,Low,No,No,Outer,Low,Safe
+adyar,South Kesavaperumalpuram,Night,Low,No,No,Outer,Low,Unsafe
+adyar,Subramaniam Nagar,Morning,Medium,Yes,Yes,Inner,Medium,Safe
+adyar,Subramaniam Nagar,Afternoon,Low,Yes,Yes,Inner,Medium,Unsafe
+adyar,Subramaniam Nagar,Evening,High,Yes,Yes,Inner,Medium,Safe
+adyar,Subramaniam Nagar,Night,Medium,Yes,Yes,Inner,Medium,Safe
+ramapuram,Suresh Nagar,Morning,Low,No,No,Outer,Medium,Unsafe
+ramapuram,Suresh Nagar,Afternoon,Low,No,No,Outer,Medium,Safe
+ramapuram,Suresh Nagar,Evening,Low,No,No,Outer,Medium,Safe
+ramapuram,Suresh Nagar,Night,Low,No,No,Outer,Medium,Unsafe
+ramapuram,Tamil Nagar,Morning,Medium,No,No,Outer,Low,Unsafe
+ramapuram,Tamil Nagar,Afternoon,Low,No,No,Outer,Low,Safe
+ramapuram,Tamil Nagar,Evening,Medium,No,No,Outer,Low,Unsafe
+ramapuram,Tamil Nagar,Night,Low,No,No,Outer,Low,Unsafe
+adyar,Teachers Colony,Morning,Medium,Yes,Yes,Inner,High,Safe
+adyar,Teachers Colony,Afternoon,Low,Yes,Yes,Inner,High,Safe
+adyar,Teachers Colony,Evening,High,Yes,Yes,Inner,High,Safe
+adyar,Teachers Colony,Night,Medium,Yes,Yes,Inner,High,Safe
+ramapuram,Thiru Nagar,Morning,Medium,Yes,No,Inner,Low,Safe
+ramapuram,Thiru Nagar,Afternoon,High,Yes,No,Inner,Low,Safe
+ramapuram,Thiru Nagar,Evening,Medium,Yes,No,Inner,Low,Safe
+ramapuram,Thiru Nagar,Night,Low,Yes,No,Inner,Low,Unsafe
+adyar,Venkateshwar Nagar,Morning,Medium,No,No,Outer,Low,Unsafe
+adyar,Venkateshwar Nagar,Afternoon,Low,No,No,Outer,Low,Safe
+adyar,Venkateshwar Nagar,Evening,Medium,No,No,Outer,Low,Unsafe
+adyar,Venkateshwar Nagar,Night,Low,No,No,Outer,Low,Unsafe
+ramapuram,Venkateshwara Nagar,Morning,Medium,No,No,Inner,High,Safe
+ramapuram,Venkateshwara Nagar,Afternoon,Medium,No,No,Inner,High,Safe
+ramapuram,Venkateshwara Nagar,Evening,Medium,No,No,Inner,High,Safe
+ramapuram,Venkateshwara Nagar,Night,Low,No,No,Inner,High,Unsafe
+west mambalam,Vivekanandapuram,Morning,High,No,No,Inner,High,Safe
+west mambalam,Vivekanandapuram,Afternoon,Medium,No,No,Inner,High,Safe
+west mambalam,Vivekanandapuram,Evening,High,No,No,Inner,High,Safe
+west mambalam,Vivekanandapuram,Night,Low,No,No,Inner,High,Unsafe
