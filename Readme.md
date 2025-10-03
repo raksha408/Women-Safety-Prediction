@@ -88,47 +88,32 @@ The outcome is a binary prediction (*Safe / Unsafe*) that can guide awareness, r
   Lists all Python libraries needed to run the project and the Streamlit app.
 
   ## Installation
-
 Follow these steps to set up the **Women Safety Prediction** project locally:
 
-### 1. Clone the repository
 ```bash
+# 1. Clone the repository
 git clone https://github.com/<your-username>/women-safety-prediction.git
 cd women-safety-prediction
 
----
-
-### 2. Create a virtual environment
-```bash
-# Windows
+# 2. Create virtual environment (Windows)
 python -m venv venv
 venv\Scripts\activate
 
-# Linux / macOS
+# 2. Create virtual environment (Linux/macOS)
 python -m venv venv
 source venv/bin/activate
 
----
-
-### 3. Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
----
-
-### 4. Verify Installation
-
-- Ensure Python version is **>= 3.10**:
-```bash
+# 4. Verify installation
 python --version
-
-- Check that **Streamlit** and required libraries are installed:
-```bash
 streamlit --version
 python -c "import pandas, numpy, sklearn, imblearn, folium, matplotlib, seaborn"
+```
+## Usage
 
----
-
-##Usage
+Follow these steps to use the Women Safety Prediction system:
 
 ```bash
 # 1. Run the Streamlit App
@@ -136,34 +121,37 @@ python -c "import pandas, numpy, sklearn, imblearn, folium, matplotlib, seaborn"
 streamlit run code/app.py
 
 # 2. Train Models
-# Retrain models using the preprocessed datasets
+# Preprocess datasets, apply SMOTE, train Logistic Regression, SVM, Random Forest
+# Saves the best model for each dataset
 python code/WomenSafety.py
 
 # 3. Generate Encoder
 # Ensure consistent categorical encoding for training and inference
 python code/generate_encoder.py
 
-# 4. Evaluate Models
+# 4. Preprocess Bangalore Dataset (Optional)
+# Transform raw Bangalore data and create numeric version
+python code/bangalore_data.py
+
+# 5. Evaluate Models (Optional)
 # Generate evaluation metrics and visualizations
 python code/evaluate.py
-
+```
 ### 5. Input Example
 
 ```bash
 # Example: Using the Streamlit app to predict safety
 # Select City, Area, Zone, and Time in the app interface
 # The app will output Safety Status and related details
-
+```
 ## 🛠 Dependencies
-
 The Women Safety Prediction project requires the following Python libraries. All dependencies can be installed at once using the `requirements.txt` file.
 
 ```bash
 # Install all required libraries
 pip install -r requirements.txt
 
----
-
+```
 ## Project Workflow
 
 The Women Safety Prediction project follows a structured workflow from data collection to deployment. The steps are outlined below:
