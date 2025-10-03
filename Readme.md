@@ -12,11 +12,12 @@ The project also provides a **Streamlit-based user interface** that allows users
 4. [Installation](#installation)  
 5. [Usage](#usage)    
 6. [Dependencies](#dependencies)  
-7. [Project Workflow](#project-workflow)  
-8. [Future Work](#future-work)  
-9. [Conclusion](#conclusion)  
-10. [Acknowledgments](#acknowledgments) 
-11. [Author](#author)  
+7. [Project Workflow](#project-workflow)
+8. [GUI Screenshots](#gui-screenshots)
+9. [Future Work](#future-work)  
+10. [Conclusion](#conclusion)  
+11. [Acknowledgments](#acknowledgments) 
+12. [Author](#author)  
 
 ---
 
@@ -183,6 +184,20 @@ The Women Safety Prediction project follows a structured workflow from data coll
    - Outputs generated in real-time based on user selections in the Streamlit app.
 
 >  This workflow ensures a complete pipeline from raw data to interactive predictions and reproducible results.
+
+## GUI Screenshots  
+
+<p align="center">
+  <img src="GUI/Input details of women safety prediction.png" alt="Input Page" width="600"/>
+</p>
+
+<p align="center">
+  <img src="GUI/Predictions(safe) details of women safety prediction.png" alt="Safe Prediction" width="600"/>
+</p>
+
+<p align="center">
+  <img src="GUI/Prediction(unsafe) details of women safety prediction.png" alt="Unsafe Prediction" width="600"/>
+</p>
 
 ## Future Work
 
