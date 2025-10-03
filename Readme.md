@@ -40,8 +40,7 @@ The outcome is a binary prediction (*Safe / Unsafe*) that can guide awareness, r
 
 ---
 
-## 📂 Folder Structure
-## 📂 Folder Structure & Datasets
+## Folder Structure
 
 - **data/**  
   Contains cleaned and preprocessed datasets for **Chennai, Bangalore, and Karnataka**:
@@ -88,7 +87,7 @@ The outcome is a binary prediction (*Safe / Unsafe*) that can guide awareness, r
 - **requirements.txt**  
   Lists all Python libraries needed to run the project and the Streamlit app.
 
-  ## 📥 Installation
+  ## Installation
 
 Follow these steps to set up the **Women Safety Prediction** project locally:
 
@@ -96,6 +95,8 @@ Follow these steps to set up the **Women Safety Prediction** project locally:
 ```bash
 git clone https://github.com/<your-username>/women-safety-prediction.git
 cd women-safety-prediction
+
+---
 
 ### 2. Create a virtual environment
 ```bash
@@ -107,8 +108,12 @@ venv\Scripts\activate
 python -m venv venv
 source venv/bin/activate
 
+---
+
 ### 3. Install dependencies
 pip install -r requirements.txt
+
+---
 
 ### 4. Verify Installation
 
@@ -121,8 +126,9 @@ python --version
 streamlit --version
 python -c "import pandas, numpy, sklearn, imblearn, folium, matplotlib, seaborn"
 
+---
 
-##  Usage ##
+##Usage
 
 ```bash
 # 1. Run the Streamlit App
@@ -156,8 +162,9 @@ The Women Safety Prediction project requires the following Python libraries. All
 # Install all required libraries
 pip install -r requirements.txt
 
+---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 The Women Safety Prediction project follows a structured workflow from data collection to deployment. The steps are outlined below:
 
@@ -202,7 +209,9 @@ By leveraging **live crime reports, social media trends, and emergency alerts**,
 
 A **mobile application** with **voice assistance**, **multilingual support**, and **user feedback integration** can further improve accessibility and usability, ensuring a more effective and user-friendly experience.
 
-## ✅ Conclusion
+---
+
+## Conclusion
 
 The Women Safety Prediction System has been successfully developed to assess the safety of different locations based on various factors such as **time, area type, police station availability, and population density**. By leveraging **machine learning techniques**, the system provides reliable predictions, classifying areas as **Safe** or **Unsafe**, helping users make informed decisions about their safety. The model has been trained and tested thoroughly to ensure high accuracy and consistency in predictions.  
 
@@ -212,8 +221,9 @@ The system has undergone **extensive testing and validation** to verify its reli
 
 Overall, the Women Safety Prediction System serves as an **effective solution** to enhance safety awareness and decision-making. By utilizing machine learning algorithms, the system offers **real-time safety assessments** based on historical and location-specific data. The predictions generated can help individuals **choose safer routes, avoid high-risk areas, and take necessary precautions**. This system not only contributes to personal security but also supports broader **community safety initiatives**, making it a valuable addition to modern safety technology.
 
+---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 I sincerely thank all those who made this project possible:
 
@@ -223,6 +233,8 @@ I sincerely thank all those who made this project possible:
 - **Community support** from GitHub, Stack Overflow, and online documentation.  
 
 Their invaluable resources and guidance empowered the successful development of this project.
+
+---
 
 ## Author
 
