@@ -41,4 +41,112 @@ The outcome is a binary prediction (*Safe / Unsafe*) that can guide awareness, r
 
 ---
 
-## Folder Structure
+## 📂 Folder Structure
+## 📂 Folder Structure & Datasets
+
+- **data/**  
+  Contains cleaned and preprocessed datasets for **Chennai, Bangalore, and Karnataka**:
+
+  1. **Chennai** – Collected from [Kaggle](https://www.kaggle.com/) (public dataset containing safety-related features for Chennai).  
+  2. **Bangalore & Karnataka** – Custom datasets created based on **research and compilation from public sources**:  
+     - **Sources:**  
+       - Local police station data and crime reports from official police websites  
+       - Municipal and government safety portals  
+       - Publicly available maps and area information  
+       - Online news reports and safety surveys  
+     - The data was manually cleaned, mapped, and standardized to match the structure of the Chennai dataset.  
+     - Columns include:  
+       - `Area` – Name of the locality  
+       - `Zone` – Zone or police jurisdiction  
+       - `Time` – Time of day categorized as Morning, Afternoon, Evening, Night  
+       - `People.Frequency` – Low, Medium, High  
+       - `Is.Police_Station` – Yes / No  
+       - `Is.Bar` – Yes / No  
+       - `Tier` – Middle / Outer / Other classification  
+       - `Residence.Level` – Low / Medium / High  
+       - `Class` – Target variable: Safe / Unsafe  
+
+  All categorical features have been **converted to numeric values** for modeling. Sample CSVs are provided for testing and demonstration purposes.
+
+- **data/**  
+  Contains cleaned and preprocessed datasets for **Bangalore, Chennai, and Karnataka**.  
+  All categorical features have been converted to numeric values for model training. Sample CSVs are provided for testing and demonstration purposes.
+
+- **code/**  
+  Contains all Python scripts used in the project:
+
+  1. `WomenSafety.py` → Preprocesses datasets, applies SMOTE, trains **Logistic Regression, SVM, and Random Forest**, and saves the best model per dataset.  
+  2. `app.py` → Streamlit web interface for user-friendly predictions with dynamic selection of city, area, zone, and time.  
+  3. `bangalore_data.py` → Preprocesses raw Bangalore dataset, transforms columns, maps features, and creates numeric versions for modeling.  
+  4. `generate_encoder.py` → Fits and saves `OrdinalEncoder` for all categorical columns to ensure consistent encoding during training and prediction.
+
+- **models/**  
+  Stores all trained model artifacts and encoders:  
+  - `women_safety_pipeline.pkl` → Final Random Forest pipeline including preprocessing  
+  - `best_model_*.pkl` → Models trained on individual datasets  
+  - `label_encoders.pkl` → Saved encoder for categorical features
+
+- **requirements.txt**  
+  Lists all Python libraries needed to run the project and the Streamlit app.
+
+  ## 📥 Installation
+
+Follow these steps to set up the **Women Safety Prediction** project locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/women-safety-prediction.git
+cd women-safety-prediction
+
+### 2. Create a virtual environment
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Linux / macOS
+python -m venv venv
+source venv/bin/activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Verify Installation
+
+- Ensure Python version is **>= 3.10**:
+```bash
+python --version
+
+- Check that **Streamlit** and required libraries are installed:
+```bash
+streamlit --version
+python -c "import pandas, numpy, sklearn, imblearn, folium, matplotlib, seaborn"
+
+
+##  Usage ##
+
+```bash
+# 1. Run the Streamlit App
+# Launch the interactive web interface for predictions
+streamlit run code/app.py
+
+# 2. Train Models
+# Retrain models using the preprocessed datasets
+python code/WomenSafety.py
+
+# 3. Generate Encoder
+# Ensure consistent categorical encoding for training and inference
+python code/generate_encoder.py
+
+# 4. Evaluate Models
+# Generate evaluation metrics and visualizations
+python code/evaluate.py
+
+### 5. Input Example
+
+```bash
+# Example: Using the Streamlit app to predict safety
+# Select City, Area, Zone, and Time in the app interface
+# The app will output Safety Status and related details
+
+
