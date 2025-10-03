@@ -95,22 +95,23 @@ Follow these steps to set up the **Women Safety Prediction** project locally:
 git clone https://github.com/<your-username>/women-safety-prediction.git
 cd women-safety-prediction
 
+```
 # 2. Create virtual environment (Windows)
 python -m venv venv
 venv\Scripts\activate
 
-# 2. Create virtual environment (Linux/macOS)
+# 3. Create virtual environment (Linux/macOS)
 python -m venv venv
 source venv/bin/activate
 
-# 3. Install dependencies
+# 4. Install dependencies
 pip install -r requirements.txt
 
-# 4. Verify installation
+# 5. Verify installation
 python --version
 streamlit --version
 python -c "import pandas, numpy, sklearn, imblearn, folium, matplotlib, seaborn"
-```
+
 ## Usage
 
 Follow these steps to use the Women Safety Prediction system:
@@ -120,10 +121,11 @@ Follow these steps to use the Women Safety Prediction system:
 # Launch the interactive web interface for predictions
 streamlit run code/app.py
 
+```
 # 2. Train Models
 # Preprocess datasets, apply SMOTE, train Logistic Regression, SVM, Random Forest
 # Saves the best model for each dataset
-python code/WomenSafety.py
+python code/WomenSafety.py 
 
 # 3. Generate Encoder
 # Ensure consistent categorical encoding for training and inference
@@ -201,13 +203,13 @@ A **mobile application** with **voice assistance**, **multilingual support**, an
 
 ## Conclusion
 
-The Women Safety Prediction System has been successfully developed to assess the safety of different locations based on various factors such as **time, area type, police station availability, and population density**. By leveraging **machine learning techniques**, the system provides reliable predictions, classifying areas as **Safe** or **Unsafe**, helping users make informed decisions about their safety. The model has been trained and tested thoroughly to ensure high accuracy and consistency in predictions.  
+## Conclusion
 
-This system aims to **empower women** by offering valuable insights into the safety levels of different locations, thereby reducing potential risks. The predictive analysis can be used by **individuals, organizations, and law enforcement agencies** to enhance security measures and safety awareness.  
+The Women Safety Prediction System provides reliable safety assessments of locations based on **time, area type, police station availability, and population density**. Using **machine learning**, it classifies areas as **Safe** or **Unsafe**, helping users make informed decisions.  
 
-The system has undergone **extensive testing and validation** to verify its reliability and usability. It efficiently processes user input and provides quick and accurate safety assessments. The model’s performance has been optimized to handle different real-world scenarios, ensuring that predictions remain precise across diverse datasets. Rigorous testing evaluated the accuracy of predictions, response time, and adaptability to different locations and conditions. The results confirmed that the system performs consistently well and delivers useful insights, making it a valuable tool for assessing location safety. Additionally, **user interface testing** ensured that the system remains intuitive and user-friendly, enabling seamless interaction for users of all backgrounds.  
+The system is designed to **empower women**, offering insights that can aid **individuals, organizations, and law enforcement**. Extensive testing ensures **accuracy, reliability, and usability**, while the Streamlit interface provides a **user-friendly experience**.  
 
-Overall, the Women Safety Prediction System serves as an **effective solution** to enhance safety awareness and decision-making. By utilizing machine learning algorithms, the system offers **real-time safety assessments** based on historical and location-specific data. The predictions generated can help individuals **choose safer routes, avoid high-risk areas, and take necessary precautions**. This system not only contributes to personal security but also supports broader **community safety initiatives**, making it a valuable addition to modern safety technology.
+Overall, the system delivers **real-time safety predictions**, helping users **choose safer routes, avoid high-risk areas**, and contribute to broader **community safety**.
 
 ---
 
