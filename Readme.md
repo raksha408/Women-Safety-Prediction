@@ -92,10 +92,9 @@ Follow these steps to set up the **Women Safety Prediction** project locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/women-safety-prediction.git
+git clone https://github.com/<raksha408>/women-safety-prediction.git
 cd women-safety-prediction
 
-```
 # 2. Create virtual environment (Windows)
 python -m venv venv
 venv\Scripts\activate
@@ -112,6 +111,7 @@ python --version
 streamlit --version
 python -c "import pandas, numpy, sklearn, imblearn, folium, matplotlib, seaborn"
 
+```
 ## Usage
 
 Follow these steps to use the Women Safety Prediction system:
@@ -121,7 +121,6 @@ Follow these steps to use the Women Safety Prediction system:
 # Launch the interactive web interface for predictions
 streamlit run code/app.py
 
-```
 # 2. Train Models
 # Preprocess datasets, apply SMOTE, train Logistic Regression, SVM, Random Forest
 # Saves the best model for each dataset
@@ -200,8 +199,6 @@ By leveraging **live crime reports, social media trends, and emergency alerts**,
 A **mobile application** with **voice assistance**, **multilingual support**, and **user feedback integration** can further improve accessibility and usability, ensuring a more effective and user-friendly experience.
 
 ---
-
-## Conclusion
 
 ## Conclusion
 
