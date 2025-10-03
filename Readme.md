@@ -134,27 +134,21 @@ python code/generate_encoder.py
 # Transform raw Bangalore data and create numeric version
 python code/bangalore_data.py
 
-# 5. Evaluate Models (Optional)
-# Generate evaluation metrics and visualizations
-python code/evaluate.py
 ```
 ### 5. Input Example
-
 ```bash
 # Example: Using the Streamlit app to predict safety
 # Select City, Area, Zone, and Time in the app interface
 # The app will output Safety Status and related details
 ```
-## 🛠 Dependencies
+## Dependencies
 The Women Safety Prediction project requires the following Python libraries. All dependencies can be installed at once using the `requirements.txt` file.
 
 ```bash
 # Install all required libraries
 pip install -r requirements.txt
-
 ```
 ## Project Workflow
-
 The Women Safety Prediction project follows a structured workflow from data collection to deployment. The steps are outlined below:
 
 1. **Data Collection**  
